@@ -98,10 +98,10 @@ This directory contains comprehensive analysis of all project materials to ident
 ## 🔗 EXTERNAL REFERENCES
 
 All GitHub links confirmed working for offline review:
-- **[know-base](https://github.com/jon-shapiro/know-base)** - Vision and architecture documents
+- **[know-base](https://github.com/jon-shapiro/jmp-know-base)** - Vision and architecture documents
 - **[know-docs](https://github.com/jon-shapiro/know-docs)** - Cannabis content and templates
 - **[know-proj](https://github.com/jon-shapiro/know-proj)** - Previous PM work (flagged as problematic)
-- **[Unity Landing](https://github.com/jon-shapiro/unity-landing)** - Target integration (access needed)
+- **[Unity Landing](https://github.com/jon-shapiro/know-docs/tree/main/docs-copy/src)** - Target integration content
 
 ---
 

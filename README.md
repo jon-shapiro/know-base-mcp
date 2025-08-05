@@ -91,15 +91,15 @@
 ## 📊 SOURCE MATERIAL INVENTORY & STATUS
 
 ### VALIDATED ASSETS ✅
-1. **[Vision Document](https://github.com/jon-shapiro/know-base/blob/main/docs/vision/know-base-user-vision.md)** - Stakeholder signed, May 29, 2025
-2. **[Unity Landing Cannabis Content](https://github.com/jon-shapiro/unity-landing)** - 18+ guides, 18,940 lines confirmed
+1. **[Vision Document](https://github.com/jon-shapiro/jmp-know-base/blob/main/docs/vision/know-base-user-vision.md)** - Stakeholder signed, May 29, 2025
+2. **[Unity Landing Cannabis Content](https://github.com/jon-shapiro/know-docs/tree/main/docs-copy/src)** - 18+ guides, 18,940 lines confirmed
 3. **[System Diagnosis](https://github.com/jon-shapiro/know-proj/blob/main/projects/system-diagnosis/status.md)** - Context loss analysis
-4. **[Getting Started Guide](https://github.com/jon-shapiro/unity-landing/blob/main/docs/getting-started.md)** - Real documentation needs
+4. **[Getting Started Guide](https://github.com/jon-shapiro/know-docs/blob/main/docs-copy/src/docs/getting-started.md)** - Real documentation needs
 
 ### REQUIRES VALIDATION ⚠️
-1. **[PRD](https://github.com/jon-shapiro/know-base/blob/main/PRD-Know-Base.md)** - Product requirements need verification
-2. **[Architecture](https://github.com/jon-shapiro/know-base/blob/main/Architecture-Know-Base.md)** - Technical design assumptions
-3. **[Component Library](https://github.com/jon-shapiro/know-base/blob/main/docs/components/component-library.md)** - Complex system design
+1. **[PRD](https://github.com/jon-shapiro/jmp-know-base/blob/main/PRD-Know-Base.md)** - Product requirements need verification
+2. **[Architecture](https://github.com/jon-shapiro/jmp-know-base/blob/main/Architecture-Know-Base.md)** - Technical design assumptions
+3. **[Component Library](https://github.com/jon-shapiro/jmp-know-base/blob/main/docs/components/component-library.md)** - Complex system design
 4. **[Cannabis Guides](https://github.com/jon-shapiro/know-docs/tree/main/docs-copy)** - Content accuracy and relevance
 5. **[Templates](https://github.com/jon-shapiro/know-docs/tree/main/templates)** - Actual utility validation
 
@@ -189,10 +189,10 @@ know-base-mcp/
 **For Work History**: Browse [docs/context/sessions/](docs/context/sessions/)
 
 ### 🔗 EXTERNAL REPOSITORY LINKS (GitHub)
-- **[know-base](https://github.com/jon-shapiro/know-base)** - Vision & architecture (some content validated)
+- **[know-base](https://github.com/jon-shapiro/jmp-know-base)** - Vision & architecture (some content validated)
 - **[know-docs](https://github.com/jon-shapiro/know-docs)** - Cannabis content & templates (needs validation)
 - **[know-proj](https://github.com/jon-shapiro/know-proj)** - Previous PM work (flagged as problematic)
-- **[Unity Landing](https://github.com/jon-shapiro/unity-landing)** - Target integration (need access)
+- **[Unity Landing](https://github.com/jon-shapiro/know-docs/tree/main/docs-copy/src)** - Target integration content (need access)
 
 ## ⚡ YOUR IMMEDIATE ACTION ITEMS
 
