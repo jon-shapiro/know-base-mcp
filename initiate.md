@@ -26,7 +26,7 @@ The new strategic initiation system requires:
 - `session/02-strategic-context.md` - Updated strategic context
 - `session/03-active-work-context.md` - Current work context
 
-**CRITICAL**: Always execute git commands from `session/04-git-state.md` - DO NOT suggest `git init` on existing repos!
+**CRITICAL**: Always review git commands from `session/04-git-state.md` but DO NOT execute them - commands are for manual execution only!
 
 ## 🎯 **STRATEGIC VALIDATION REQUIREMENTS**
 

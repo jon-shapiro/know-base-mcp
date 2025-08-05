@@ -135,11 +135,12 @@ Properly close current session and prepare for next session with strategic conti
    - Document strategic value created and evidence generated
    - Assess progress toward strategic decision points
 
-2. **Git State Capture**:
+2. **Git Command Generation**:
    - Check current git status (uncommitted files, branch state, remote sync)
-   - Generate commit message based on strategic work completed
-   - Create `session/04-git-state.md` with exact git commands for next session
+   - Generate commit message based on strategic work completed using `git add .`
+   - Create `session/04-git-state.md` with exact git commands for human execution
    - Include commit message context and expected final state
+   - **DO NOT EXECUTE**: Commands are for human execution only
 
 3. **Strategic Context Generation**:
    - Update strategic understanding based on session learnings
@@ -164,12 +165,16 @@ Properly close current session and prepare for next session with strategic conti
    - Validate that next session can resume with full strategic awareness
    - Confirm git state commands are accurate and complete
    - Verify strategic decision tracking is complete
+   - **ALWAYS provide full initiate file path**: `/Users/jon/git/know-base-mcp/initiate.md`
+   - **ALWAYS write session files to disk** using filesystem tools
+   - **ALWAYS output complete git commit commands** for manual execution
 
 **Output**: 
 - "Session ended with strategic continuity established. Next session priorities: [STRATEGIC FOCUS]"
+- **Full initiate path**: `/Users/jon/git/know-base-mcp/initiate.md`
 - Strategic initiation command: `INITIALIZE KNOW-BASE-MCP SESSION STRATEGIC-VALIDATION-MODE`
-- Git commands in `session/04-git-state.md` for repository synchronization
-- Complete strategic handoff package in session/ directory
+- **Complete git commands** in session/04-git-state.md for repository synchronization
+- **All session files written to disk** in session/ directory
 
 ### **--session-handoff [NOTES]**
 Prepare handoff for different team member

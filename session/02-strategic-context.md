@@ -12,41 +12,41 @@ Transform Unity Landing's 18+ cannabis retail guides via MCP + conversational AI
 
 ### Strategic Hypothesis
 **Primary**: Component architecture + conversational AI = 10x faster content creation
-**Current Test**: Testing strategic initiation system effectiveness to prevent context recall failures
-**Evidence**: Successfully implemented comprehensive strategic session management system
+**Current Test**: Testing complete corrected strategic initiation system with enforced --end-session requirements
+**Evidence**: Successfully implemented systematic session management with mandatory requirement enforcement
 
 ## Current Phase Strategic Rationale
 ### Why Validation Phase
-- **Assumption Risk**: Previous context recall failures could indicate deeper systematic issues
-- **Stakeholder Value**: Must demonstrate reliable session management before scope validation
-- **Evidence Needed**: Proof that strategic initiation system solves context continuity issues
-- **Decision Point**: Validate system effectiveness before proceeding to stakeholder scope review
+- **Assumption Risk**: Session management failures could undermine entire project reliability
+- **Stakeholder Value**: Must demonstrate consistent process compliance before stakeholder engagement
+- **Evidence Needed**: Proof that enforced requirements eliminate all session management issues
+- **Decision Point**: Validate complete system reliability before stakeholder scope review
 
 ### Success Criteria for Phase
-- **Strategic Success**: Perfect session continuity with strategic understanding validation
-- **Evidence Collection**: Demonstration of strategic comprehension, not memorization
-- **Stakeholder Approval**: Reliable session management enables effective scope validation process
-- **Risk Mitigation**: Eliminated context loss risk through systematic session handoff
+- **Strategic Success**: Perfect session continuity with all mandatory requirements consistently met
+- **Evidence Collection**: Demonstration of enforced requirements preventing process failures
+- **Stakeholder Approval**: Reliable session management with consistent compliance enables stakeholder validation
+- **Risk Mitigation**: Eliminated process inconsistency through mandatory requirement enforcement
 
 ## Strategic Decision Framework
 ### Current Decision Point
-**Decision**: Test strategic initiation system effectiveness in practice
-**Options**: Proceed with testing vs. further refinement vs. simplified approach
-**Evidence Needed**: Successful session continuity with strategic validation checkpoints
-**Timeline**: Next session for initial testing, stakeholder scope review pending
+**Decision**: Test complete corrected system with enforced --end-session requirements
+**Options**: Proceed with comprehensive testing vs. additional requirement refinement
+**Evidence Needed**: Successful session continuity with all mandatory requirements met consistently
+**Timeline**: Next session for complete system testing with enforced requirements
 
 ### Strategic Risks & Mitigation
-**High Risk**: New system complexity could create different context issues
-**Mitigation**: Comprehensive testing with validation checkpoints and simplification options
-**Early Warning**: If strategic validation becomes burden rather than benefit
+**High Risk**: Process inconsistency could still occur despite enforced requirements
+**Mitigation**: Comprehensive testing with mandatory requirement validation
+**Early Warning**: If any --end-session requirement is missed during testing
 
 ## Stakeholder Value Proposition
 ### Value Created
-**For Jon**: Reliable session management enabling efficient stakeholder validation process
-**For Cannabis Industry**: Foundation for specialized documentation system
-**For Documentation**: Proof of concept for strategic AI session management
+**For Jon**: Reliable session management with enforced requirements ensuring consistent process compliance
+**For Cannabis Industry**: Foundation for systematic documentation with guaranteed process reliability
+**For Documentation**: Proof of concept for AI session management with enforced quality standards
 
 ### Approval Strategy
-**Evidence Needed**: Demonstration of effective strategic initiation system
-**Communication Strategy**: Show systematic solution to context recall failures
-**Decision Timeline**: Scope validation awaiting strategic system validation
+**Evidence Needed**: Demonstration of complete system working with all requirements consistently met
+**Communication Strategy**: Show systematic solution with enforced requirement compliance
+**Decision Timeline**: Scope validation pending complete system validation with enforced requirements

@@ -1,5 +1,20 @@
 # Session File Templates
 
+**Task ID**: T008-initiation-testing  
+**Related Epic**: E001-foundation-validation  
+**Related Story**: S003-unity-analysis  
+**Document Type**: Implementation  
+**Created**: August 04, 2025  
+**Status**: ACTIVE  
+
+## Task Context
+**Purpose**: Provide templates for --end-session command to create strategic handoff files with perfect session continuity  
+**Success Criteria**: Templates enable consistent strategic context preservation across sessions  
+**Dependencies**: End-session command integration, strategic validation requirements  
+**Strategic Value**: Ensures reliable session handoffs for systematic cannabis documentation development
+
+---
+
 **Purpose**: Templates for --end-session command to create strategic handoff files  
 **Usage**: These templates are used by --end-session to ensure consistent strategic continuity
 
@@ -69,26 +84,30 @@ INITIALIZE KNOW-BASE-MCP SESSION STRATEGIC-VALIDATION-MODE
 - **Remote Status**: [ahead/behind/up-to-date] 
 - **Uncommitted Files**: [count] files
 
-## Git Commands for Next Session
-**Execute these commands immediately after initiation:**
+## Git Commands for Human Execution
+**Execute these commands manually after session:**
 
 ```bash
-# Navigate to repository (if needed)
+# Navigate to repository
 cd /Users/jon/git/know-base-mcp
 
-# [STATE-SPECIFIC COMMANDS - examples below]
-
-# If there are uncommitted changes:
+# Add all files (cleaner approach)
 git add .
-git commit -m "[GENERATED COMMIT MESSAGE BASED ON SESSION WORK]"
 
-# If ahead of remote:
+# Commit with strategic context
+git commit -m "[GENERATED COMMIT MESSAGE BASED ON SESSION WORK]
+
+- [Specific accomplishments]
+- [Files modified and strategic purpose]  
+- [Epic/Story/Task progress]
+
+Task: [TASK_ID] - [STATUS]
+Epic: [EPIC_ID] - [PROGRESS]"
+
+# Push to remote repository
 git push origin main
 
-# If behind remote:
-git pull origin main
-
-# Check final status:
+# Check final status
 git status
 ```
 
