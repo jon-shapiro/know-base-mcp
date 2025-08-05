@@ -1,11 +1,60 @@
-# JMP-Know-Base-MCP Project Initiation Context
+# Know-Base-MCP Strategic Initiation
 
-**Repository**: `/Users/jon/git/know-base-mcp/`  
-**Date Created**: August 04, 2025  
-**Session**: Comprehensive analysis and repository consolidation planning  
-**Status**: Repository created, comprehensive analysis complete, awaiting migration decisions
+**INITIATION COMMAND**: `INITIALIZE KNOW-BASE-MCP SESSION STRATEGIC-VALIDATION-MODE`
 
-## 🎯 PROJECT CONTEXT & BACKGROUND
+**CRITICAL**: This initiation system has been completely redesigned based on comprehensive analysis of context recall failures. The new system:
+- **Integrates with --end-session**: Git state and strategic context captured during session end
+- **Validates strategic understanding**: Demonstrates comprehension, not memorization
+- **Ensures perfect continuity**: No context loss between sessions
+
+## 🚨 **STRATEGIC INITIATION PROCESS**
+
+**USE NEW SYSTEM**: [STRATEGIC-INITIATION-SYSTEM.md](STRATEGIC-INITIATION-SYSTEM.md)
+
+The new strategic initiation system requires:
+1. **Session continuity validation** - Demonstrate understanding of where we left off
+2. **Git state synchronization** - Execute commands from previous --end-session
+3. **Strategic context loading** - Load and validate strategic understanding
+4. **Tactical context integration** - Connect technical work to strategic goals
+5. **Strategic synthesis** - Demonstrate complete strategic awareness
+
+## 📋 **END-SESSION INTEGRATION**
+
+**REFERENCE**: [COMMANDS.md](COMMANDS.md) contains the `--end-session` command that creates:
+- `session/00-session-handoff.md` - Strategic handoff
+- `session/04-git-state.md` - Git commands for next session
+- `session/02-strategic-context.md` - Updated strategic context
+- `session/03-active-work-context.md` - Current work context
+
+**CRITICAL**: Always execute git commands from `session/04-git-state.md` - DO NOT suggest `git init` on existing repos!
+
+## 🎯 **STRATEGIC VALIDATION REQUIREMENTS**
+
+After each context load, you must demonstrate strategic understanding by explaining:
+- **WHY this work matters** to the overall project hypothesis
+- **HOW current work connects** to larger strategic goals
+- **WHAT strategic decisions** this work will enable or inform
+- **WHEN strategic pivots** might be needed based on learnings
+
+This prevents the memorization without comprehension that caused previous context recall failures.
+
+## 🔄 **INITIATION PROCESS EVOLUTION**
+
+**Previous Issues Fixed**:
+- ✅ **Git state disconnect**: Now captured during --end-session, not initiation
+- ✅ **Context overload**: Strategic validation prevents passive information loading
+- ✅ **Session discontinuity**: Perfect handoff system with strategic context
+- ✅ **Missing end-session integration**: Full integration with --end-session command
+
+**Comprehensive Analysis**: [INITIATION-COMPREHENSIVE-FIX.md](INITIATION-COMPREHENSIVE-FIX.md)
+
+---
+
+## 📚 **LEGACY CONTEXT (Reference Only)**
+
+**NOTE**: The following comprehensive analysis remains for reference, but the new strategic initiation system above should be used for all sessions.
+
+---
 
 ### What This Repository Is
 This is the **definitive repository** for developing the JMP-Know-Base MCP (Model Context Protocol) server - a Claude Desktop integration that transforms cannabis retail documentation through conversational AI and component-based architecture.

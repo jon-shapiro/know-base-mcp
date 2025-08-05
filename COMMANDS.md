@@ -126,22 +126,50 @@ List all items requiring stakeholder (Jon) action
 ## 📝 SESSION MANAGEMENT COMMANDS
 
 ### **--end-session**
-Properly close current session and prepare for next session
+Properly close current session and prepare for next session with strategic continuity
 
 **Process**:
-1. Update STATUS.md with current state
-2. Update pm/registry/active-work.md with progress
-3. Create session summary in docs/context/sessions/
-4. Update task files with work completed
-5. Log any decisions made during session
-6. Identify next session priorities
-7. Generate initiate command for next session
-8. Provide git add/commit/push commands for repository sync
+1. **Strategic Work Analysis**:
+   - Analyze work completed and its strategic impact on Epic/Story/Task
+   - Identify strategic insights and learnings that change project understanding
+   - Document strategic value created and evidence generated
+   - Assess progress toward strategic decision points
+
+2. **Git State Capture**:
+   - Check current git status (uncommitted files, branch state, remote sync)
+   - Generate commit message based on strategic work completed
+   - Create `session/04-git-state.md` with exact git commands for next session
+   - Include commit message context and expected final state
+
+3. **Strategic Context Generation**:
+   - Update strategic understanding based on session learnings
+   - Identify strategic decisions or pivots discovered during session
+   - Document changes to project hypothesis or strategic approach
+   - Generate strategic context for next session handoff
+
+4. **Session Handoff Creation**:
+   - Create `session/00-session-handoff.md` with complete strategic context
+   - Update `session/02-strategic-context.md` with current strategic position
+   - Update `session/03-active-work-context.md` with current work status
+   - Generate strategic initiation command for next session
+
+5. **Stakeholder Communication Preparation**:
+   - Identify new items requiring stakeholder review and approval
+   - Update stakeholder action items with strategic context
+   - Prepare strategic progress updates for stakeholder communication
+   - Document strategic decisions requiring stakeholder input
+
+6. **Strategic Continuity Validation**:
+   - Ensure all strategic context captured for perfect session continuity
+   - Validate that next session can resume with full strategic awareness
+   - Confirm git state commands are accurate and complete
+   - Verify strategic decision tracking is complete
 
 **Output**: 
-- "Session ended. Next session priorities: [LIST]"
-- Initiate command for next session
-- Git commands for repository synchronization
+- "Session ended with strategic continuity established. Next session priorities: [STRATEGIC FOCUS]"
+- Strategic initiation command: `INITIALIZE KNOW-BASE-MCP SESSION STRATEGIC-VALIDATION-MODE`
+- Git commands in `session/04-git-state.md` for repository synchronization
+- Complete strategic handoff package in session/ directory
 
 ### **--session-handoff [NOTES]**
 Prepare handoff for different team member

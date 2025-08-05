@@ -1,10 +1,30 @@
 # Know-Base MCP Project
 
-**🎯 FOUNDATION COMPLETE - Ready for Scope Validation**
+**🎯 STRATEGIC INITIATION SYSTEM IMPLEMENTED**
 
-MCP server for conversational cannabis industry documentation creation. All foundational documents copied and validated against actual Unity Landing implementation.
+MCP server for conversational cannabis industry documentation creation with **strategic validation** and **perfect session continuity**.
 
-## 🚨 **IMMEDIATE ACTION REQUIRED**
+## 🚀 **NEW: Strategic Session Management**
+
+### **Session Initiation**
+```bash
+INITIALIZE KNOW-BASE-MCP SESSION STRATEGIC-VALIDATION-MODE
+```
+**Details**: [STRATEGIC-INITIATION-SYSTEM.md](STRATEGIC-INITIATION-SYSTEM.md)
+
+### **Session Closure** 
+```bash
+--end-session
+```
+**Creates**: Strategic handoff files with git state for perfect continuity
+
+### **Key Improvements**
+- ✅ **Git State Integration**: Captured during --end-session, loaded during initiation  
+- ✅ **Strategic Validation**: Demonstrates understanding, not memorization
+- ✅ **Perfect Continuity**: No context loss between sessions
+- ✅ **Intelligent Loading**: Load only context needed for current work
+
+## 🚨 **CURRENT PRIORITY: SCOPE VALIDATION**
 
 **👉 Review**: [Unity Landing Index for Review](foundation-docs/UNITY-LANDING-INDEX-FOR-REVIEW.md)  
 **👉 Decide**: Which components and use cases for MVP  
