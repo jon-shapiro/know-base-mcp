@@ -9,18 +9,27 @@
 
 **FOR OFFLINE REVIEW**: All files are self-contained with complete context. No external dependencies.
 
-### CRITICAL FILES TO REVIEW (in order):
-1. **[Project Status](STATUS.md)** - Current state and blockers
-2. **[Use Case Validation](docs/validation/use-case-validation.md)** - Real vs assumed requirements
-3. **[Cannabis Compliance Reality Check](docs/validation/cannabis-compliance-validation.md)** - Over-engineering analysis (potential 9-13 week savings)
-4. **[Gap Analysis](docs/validation/gap-analysis.md)** - Missing requirements
-5. **[Decision Log](docs/decisions/decision-log.md)** - All decisions with rationale
+### 🔥 IMMEDIATE ACTION ITEMS FOR JON
+1. **🚨 CRITICAL**: Review [Cannabis Compliance Reality Check](docs/validation/cannabis-compliance-validation.md) - **9-13 week savings potential**
+2. **🚨 CRITICAL**: Review [Use Case Validation](docs/validation/use-case-validation.md) - Real vs assumed requirements
+3. **🚨 CRITICAL**: Authorize user research (3-5 Unity maintainer interviews) by Aug 06
+4. **🚨 CRITICAL**: Provide Unity Landing repository access for technical audit
+5. **📋 HIGH**: Review [PM System](pm/README.md) - New project management capabilities created
 
-### NAVIGATION GUIDE
-- **Project Memory**: [CLAUDE.md](CLAUDE.md) - AI context preservation
-- **File Inventory**: [docs/files/file-inventory.md](docs/files/file-inventory.md) - Complete file tracking
-- **Session History**: [docs/context/sessions/](docs/context/sessions/) - Work completed each session
-- **Project Management**: [docs/project-management/](docs/project-management/) - PM approach and frameworks
+### 📊 PROJECT STATUS OVERVIEW
+- **Current Phase**: VALIDATION (no development until stakeholder approval)
+- **Progress**: 25% complete (validation framework + PM system)
+- **Key Blocker**: Cannabis compliance scope validation (9-13 week impact)
+- **PM System**: ✅ OPERATIONAL - Epic/Story/Task hierarchy with analysis/planning
+- **Active Work**: [View Current Sprint](pm/registry/active-work.md)
+
+### 🗂️ NAVIGATION GUIDE
+- **📊 Current Status**: [STATUS.md](STATUS.md) - Real-time project state
+- **🧠 Project Memory**: [CLAUDE.md](CLAUDE.md) - AI context preservation  
+- **📋 Project Management**: [pm/](pm/) - Complete PM system with current work
+- **✅ Validation Documents**: [docs/validation/](docs/validation/) - **REQUIRES YOUR REVIEW**
+- **📝 Decision History**: [docs/decisions/decision-log.md](docs/decisions/decision-log.md)
+- **📁 File Inventory**: [docs/files/file-inventory.md](docs/files/file-inventory.md)
 
 ## 🎯 PROJECT MISSION & GOALS
 
