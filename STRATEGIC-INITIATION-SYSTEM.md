@@ -39,7 +39,17 @@ After loading, demonstrate understanding by explaining:
 - **Strategic momentum**: What strategic insight or validation was gained?
 - **Next strategic move**: What's the most important thing to accomplish this session?
 
-### **Step 1B: Review Git Status (NO EXECUTION)**  
+### **Step 1B: PM Registry Validation (CRITICAL)**  
+**Files**: `pm/registry/active-work.md` + registry files (existing system)
+
+**PM REGISTRY VALIDATION**:
+- Load current Epic/Story/Task status from existing registry system
+- Validate work item context matches session files
+- Check Epic/Story/Task linkage and hierarchy
+- Confirm Analysis/Plan file linking is intact
+- Update understanding of current active work from registry
+
+### **Step 1C: Review Git Status (NO EXECUTION)**  
 **File**: `session/04-git-state.md` (created by previous --end-session)
 
 **GIT STATUS REVIEW**:

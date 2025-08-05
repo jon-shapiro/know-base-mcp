@@ -1,0 +1,32 @@
+# PM Index Maintenance Guide
+
+**Purpose**: Simple guide for keeping PM system organized
+**Integration**: Works with existing registry system
+
+## 🗂️ **MAINTENANCE RULES**
+
+### **When to Update Registry:**
+- Task status changes (IN_PROGRESS → COMPLETE)
+- New Task created
+- Work items archived or completed
+
+### **Registry Files to Update:**
+- `pm/registry/active-work.md` - Current active tasks
+- `pm/registry/epic-registry.md` - Epic status and progress
+- `pm/registry/story-registry.md` - Story status and progress
+
+### **Archive Process:**
+- Move completed tasks >30 days to `pm/archive/YYYY-MM/`
+- Update registry to reflect archived items
+- Keep registry clean and current
+
+## 🔧 **INTEGRATION WITH --end-session**
+
+Enhance existing --end-session to include:
+1. Check for completed work items
+2. Update registry files if needed
+3. Include registry updates in git commit message
+
+---
+
+**Status**: SIMPLE ENHANCEMENT - Uses existing cleanup commands and registry system

@@ -1,0 +1,55 @@
+# Enhanced --end-session Process
+
+**Purpose**: Add simple PM intelligence to existing working --end-session command
+**Status**: ENHANCEMENT - Does not break existing working system
+
+## 🔧 **ENHANCED PROCESS STEPS**
+
+### **Step 1: Work Classification Review**
+Before executing existing --end-session:
+- Review session work using `pm/work-classification-rules.md`
+- Identify what should be Tasks vs. session-only tracking
+- Note any work that needs Task creation for next session
+
+### **Step 2: Registry Maintenance Check**
+If any work items completed or status changed:
+- Check `pm/index-maintenance-guide.md`
+- Update relevant registry files
+- Include registry updates in commit message
+
+### **Step 3: Execute Existing --end-session**
+Run the existing working --end-session command from COMMANDS.md:
+- All existing functionality preserved
+- Session files written to disk
+- Full git commands output to screen
+- Strategic handoff prepared
+
+### **Step 4: Enhanced Commit Message**
+Include in the detailed commit message:
+- Work classification decisions made
+- Registry updates performed
+- Session-only work completed
+- Tasks identified for creation
+
+## 📋 **EXAMPLE ENHANCED COMMIT MESSAGE**
+
+```
+[EXISTING DETAILED COMMIT MESSAGE]
+
+WORK CLASSIFICATION APPLIED:
+- Session-only: Strategic validation, documentation updates, simple fixes
+- Task needed: User guide requirements analysis (>1 hour, multi-session)
+
+REGISTRY UPDATES:  
+- Updated active-work.md with T008 completion
+- No archival needed (no work >30 days old)
+
+NEXT SESSION PREPARATION:
+- Create Task for user guide requirements analysis
+- Continue with enhanced PM system operational
+```
+
+---
+
+**Integration**: Works with existing system, adds intelligence without breaking anything
+**Benefit**: Semi-smart PM decisions while preserving reliable session management

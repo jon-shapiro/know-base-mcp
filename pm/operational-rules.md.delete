@@ -1,0 +1,201 @@
+# PM System Operational Rules
+
+**Purpose**: Simple, clear rules that solve the real operational problems without over-engineering
+**Created**: August 05, 2025
+**Status**: ACTIVE - These rules are now in effect
+
+## 🎯 **RULE 1: WORK CLASSIFICATION**
+
+### **When to Create Full Task (with analysis.md + plan.md):**
+- Work estimated > 1 hour
+- Work spans multiple sessions
+- Work requires stakeholder input/approval
+- Work has dependencies or blocks other work
+- Work generates deliverables or documentation
+
+### **When to Track in Session Only:**
+- Work estimated < 1 hour
+- Single session completion
+- Simple updates, fixes, clarifications
+- Administrative tasks
+- Quick research or lookups
+
+### **Examples:**
+- **Task**: "Implement MCP server architecture" → Full Task (multi-session, complex)
+- **Session Only**: "Fix typo in documentation" → Session tracking only
+- **Task**: "Analyze Unity Landing content requirements" → Full Task (analysis work)
+- **Session Only**: "Update task status in index" → Session tracking only
+
+---
+
+## 🔧 **RULE 2: INDEX MAINTENANCE**
+
+### **When to Update PM-ARTIFACT-INDEX.md:**
+- Task status changes (IN_PROGRESS → COMPLETE)
+- New Task created (add to task index + artifact matrix)
+- Artifacts created (analysis.md, plan.md) → update completeness matrix
+- Story/Epic progress changes
+- Work item archival or cleanup
+
+### **Update Process:**
+1. Make the change (create task, update status, etc.)
+2. Update PM-ARTIFACT-INDEX.md immediately
+3. Validate consistency between index and file system
+4. Include index updates in git commits
+
+### **Index Validation Rules:**
+- During `--initiate`: Check index matches file system reality
+- Report inconsistencies immediately
+- Fix simple mismatches automatically (file paths, progress calculations)
+- Flag complex issues for manual review
+
+---
+
+## 🗂️ **RULE 3: CLEANUP AUTOMATION**
+
+### **Archive Triggers:**
+- Tasks COMPLETE for > 30 days → move to `archive/tasks/`
+- Session files older than 7 days → move to `archive/sessions/`
+- Analysis/plan files for archived tasks → move with parent task
+- Old git state files → cleanup after successful sessions
+
+### **Cleanup Process:**
+```
+archive/
+├── tasks/
+│   ├── 2025-07/           # Archived by month
+│   │   ├── T001-complete/
+│   │   └── T002-complete/
+├── sessions/
+│   ├── 2025-07/
+│   │   ├── session-handoff-archive/
+```
+
+### **Preservation Rules:**
+- Keep decision-log.md (never archive)
+- Keep active Epic/Story definitions
+- Keep PM-ARTIFACT-INDEX.md current
+- Archive maintains full context and linking
+
+### **Manual Cleanup Commands:**
+- `--pm-cleanup`: Execute cleanup rules for completed work
+- `--pm-archive T001`: Archive specific completed task
+- `--pm-validate-cleanup`: Check what would be archived without doing it
+
+---
+
+## ⚙️ **RULE 4: COMMAND INTEGRATION**
+
+### **PM Status Commands:**
+```bash
+--pm-status              # Show current active work and progress
+--pm-validate            # Check index consistency with file system
+--pm-cleanup             # Archive completed work per cleanup rules
+--pm-archive [TASK_ID]   # Archive specific completed task
+```
+
+### **Session Integration Commands:**
+```bash
+--initiate               # Load context + validate index consistency
+--end-session           # Update session files + check cleanup triggers
+--pm-handoff            # Prepare clean handoff with current work status
+```
+
+### **Command Behavior Rules:**
+
+#### `--pm-status`
+- Show active Tasks with progress
+- Show session-only work from current session
+- Show next actions and blockers
+- Show index consistency status
+
+#### `--pm-validate`
+- Check PM-ARTIFACT-INDEX.md matches file system
+- Report missing files, orphaned references
+- Validate progress calculations
+- Check Epic→Story→Task relationships
+
+#### `--pm-cleanup`
+- Apply archive rules to completed work
+- Move old session files to archive
+- Update index to reflect archived items
+- Report what was archived
+
+#### `--end-session` (Enhanced)
+- Apply operational rules to session work classification
+- Update index per index maintenance rules
+- Apply cleanup triggers and archive old files
+- Generate git commands for manual execution
+- Create session handoff with strategic context
+- **REQUIRED**: Output git commands and initiate command to screen
+
+**MANDATORY SCREEN OUTPUT:**
+```
+## 🚀 **NEXT SESSION PROTOCOL**
+
+### **Initiation Command**
+```bash
+INITIALIZE KNOW-BASE-MCP SESSION STRATEGIC-VALIDATION-MODE
+```
+
+### **Git Commands for Manual Execution**
+```bash
+cd /Users/jon/git/know-base-mcp
+git add .
+git commit -m "[DETAILED_SESSION_SUMMARY_MESSAGE]"
+git push origin main
+git status
+```
+```
+
+---
+
+## 📋 **IMPLEMENTATION STATUS**
+
+### **Rule 1: Work Classification** ✅ ACTIVE
+- Guidelines established and documented
+- Ready for immediate use in session decisions
+- Clear examples provided for edge cases
+
+### **Rule 2: Index Maintenance** ✅ ACTIVE
+- Update triggers defined
+- Validation process specified
+- Integration with session workflow established
+
+### **Rule 3: Cleanup Automation** 📋 READY FOR IMPLEMENTATION
+- Archive structure defined
+- Cleanup triggers established
+- Manual commands specified
+- **Next Action**: Implement `--pm-cleanup` command logic
+
+### **Rule 4: Command Integration** 📋 READY FOR IMPLEMENTATION  
+- Command specifications complete
+- Behavior rules defined
+- Session integration planned
+- **Next Action**: Implement command logic and test
+
+---
+
+## 🎯 **IMMEDIATE BENEFITS**
+
+### **Problems Solved:**
+1. ✅ **Work Classification**: Clear rules for Task vs. session tracking
+2. ✅ **Index Consistency**: Systematic maintenance and validation
+3. ✅ **Repository Hygiene**: Cleanup rules prevent file accumulation
+4. ✅ **Command Clarity**: Defined behavior for PM operations
+
+### **Simple to Follow:**
+- No complex engines or pattern matching
+- Clear decision criteria based on work characteristics
+- Natural integration with existing workflow
+- Validation catches problems early
+
+### **Ready for User Guide Work:**
+- PM system operational and reliable
+- Clear rules for managing analysis and documentation work
+- Repository stays clean and organized
+- Session context integrity maintained
+
+---
+
+**Status**: OPERATIONAL RULES IMPLEMENTED - Ready for user guide development work with systematic PM support

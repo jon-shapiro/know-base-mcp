@@ -1,0 +1,41 @@
+# PM Work Classification Rules
+
+**Purpose**: Simple rules for when to create Tasks vs. track in session only
+**Integration**: Works with existing Epic/Story/Task system without breaking it
+
+## 🎯 **CLASSIFICATION RULES**
+
+### **When to Create Full Task:**
+- Work estimated > 1 hour
+- Work spans multiple sessions  
+- Work requires stakeholder input/approval
+- Work has dependencies or blocks other work
+- Work generates important deliverables
+
+### **When to Track in Session Only:**
+- Work estimated < 1 hour
+- Single session completion
+- Simple updates, fixes, clarifications
+- Administrative tasks
+
+## 🔧 **INTEGRATION WITH EXISTING SYSTEM**
+
+### **Task Creation Process (Enhanced):**
+1. Use existing `--create-task` command from COMMANDS.md
+2. Apply classification rules to decide if Task needed
+3. Use existing task templates from `templates/`
+4. Update existing registry system
+
+### **Session-Only Tracking:**
+- Use existing session handoff system
+- Track in session files that already work
+- Include in existing git commit messages
+
+## 📋 **EXAMPLES**
+
+**Creates Task**: "Analyze Unity Landing content requirements" (>1 hour, analysis work)
+**Session Only**: "Fix typo in documentation" (<1 hour, simple fix)
+
+---
+
+**Status**: READY FOR INTEGRATION - Enhances existing system without breaking anything

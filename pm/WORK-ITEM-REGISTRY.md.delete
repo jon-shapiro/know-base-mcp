@@ -1,0 +1,44 @@
+# PM Work Item Registry - Master Index
+
+**Purpose**: Central tracking of all Epic/Story/Task IDs to prevent loss and confusion
+**Critical**: Prevents ID conflicts and orphaned work items
+**Updated**: During initiation process
+
+## 📋 **ACTIVE WORK ITEMS**
+
+### **Current Epic**: E001 - Project Management System
+### **Current Story**: S001 - Create PM Capabilities  
+### **Current Task**: T001 - PM Requirements Analysis
+
+## 🔢 **ID REGISTRY**
+
+### **Epic IDs (E###)**
+- **E001**: Project Management System (ACTIVE)
+
+### **Story IDs (S###)**  
+- **S001**: Create PM Capabilities (ACTIVE - under E001)
+
+### **Task IDs (T###)**
+- **T001**: PM Requirements Analysis (ACTIVE - under S001)
+
+## 📊 **WORK ITEM STATUS TRACKING**
+
+| ID | Type | Name | Status | Parent | Owner | Created | Updated |
+|----|------|------|--------|--------|-------|---------|---------|
+| E001 | Epic | Project Management System | IN_PROGRESS | - | Jon | 2025-08-04 | 2025-08-05 |
+| S001 | Story | Create PM Capabilities | IN_PROGRESS | E001 | Jon | 2025-08-04 | 2025-08-05 |
+| T001 | Task | PM Requirements Analysis | IN_PROGRESS | S001 | Jon | 2025-08-04 | 2025-08-05 |
+
+## 🔧 **NEXT ID ASSIGNMENTS**
+- **Next Epic**: E002
+- **Next Story**: S002  
+- **Next Task**: T002
+
+## 📁 **FILE LOCATION MAPPING**
+- **E001**: `pm/epics/E001-project-management-system/`
+- **S001**: `pm/stories/S001-create-pm-capabilities/`
+- **T001**: `pm/tasks/T001-pm-requirements-analysis/`
+
+---
+
+**Critical Process**: Always check this file during initiation to load correct work item context and prevent ID confusion

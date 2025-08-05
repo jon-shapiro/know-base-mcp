@@ -210,6 +210,19 @@ Perform routine maintenance
 4. Check for broken links
 5. Validate registry consistency
 
+### **--cleanup-junk**
+Remove unnecessary files that accumulate during development
+
+**Process**:
+1. Remove .delete files created during cleanup
+2. Remove .backup files older than 7 days
+3. Clean up any orphaned analysis/plan files
+4. Remove duplicate or test files
+5. Report what was cleaned up
+
+**Example**: --cleanup-junk
+**Output**: "Cleaned up X junk files. Repository hygiene maintained."
+
 ### **--archive-completed**
 Clean up completed work items
 
