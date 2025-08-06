@@ -43,12 +43,19 @@ INITIALIZE KNOW-BASE-MCP SESSION STRATEGIC-VALIDATION-MODE
 **👉 Decide**: Which components and use cases for MVP  
 **👉 Approve**: Final scope for MCP implementation  
 
-## 📋 **QUICK NAVIGATION**
+## 📋 **PROJECT MANAGEMENT SYSTEM**
+
+### **📊 Registry System (Master Tracking)**
+- **[Epic Registry](pm/registry/epic-registry.md)** - E001-E005 epic tracking with timeline
+- **[Use Case Registry](pm/registry/use-case-registry.md)** - 21 use cases (17 MVP + 4 Future) with gaps documented
+- **[Task Registry](pm/registry/task-registry.md)** - All tasks with Epic→Story→Task relationships
+- **[Plans Registry](pm/registry/plans-registry.md)** - P001, P008 planning documents with task linkage
+- **[Active Work](pm/registry/active-work.md)** - Current sprint priorities and progress
 
 ### **📊 Project Status & Trajectory**
 - **[PROJECT-OVERVIEW.md](PROJECT-OVERVIEW.md)** - Complete project trajectory, decisions needed
 - **[STATUS.md](STATUS.md)** - Current status, blockers, next steps
-- **[SESSION-SUMMARY.md](SESSION-SUMMARY.md)** - What was accomplished this session
+- **[Document Consolidation Plan](docs/plans/P008-document-consolidation-plan.md)** - 🚨 **30 hours consolidation work identified**
 
 ### **🔍 Key Review Document**
 - **[UNITY-LANDING-INDEX-FOR-REVIEW.md](foundation-docs/UNITY-LANDING-INDEX-FOR-REVIEW.md)** - 🚨 **REVIEW THIS** - Component validation & use case mapping
@@ -59,18 +66,32 @@ INITIALIZE KNOW-BASE-MCP SESSION STRATEGIC-VALIDATION-MODE
 - **[mvp-definition-and-success-criteria.md](foundation-docs/mvp-definition-and-success-criteria.md)** - Business requirements
 - **[unity-landing-guide-inventory.md](foundation-docs/unity-landing-guide-inventory.md)** - 18 cannabis guide analysis
 
-## 🔍 **KEY FINDINGS**
+## 📈 **COMPREHENSIVE PROJECT BACKLOG**
 
-### **Reality Check Results**
+### **🔥 Current Sprint (E001: PM System - 95% Complete)**
+- **T009**: File Inventory Review with Enhanced Context - NOT_STARTED - High Priority
+- **T011**: Process Failure Correction & Prevention - NOT_STARTED - High Priority
+- **T002**: PM System Cleanup Process - NOT_STARTED - Medium Priority
+
+### **📊 Epic Breakdown & Status**
+- **E001**: Project Management System - 95% complete (T009, T011 remaining)
+- **E002**: Requirements & Planning - 0% complete (6 stories, 30 hours documentation)
+- **E003**: Build Phase - Foundation - 0% complete (4 stories, MCP server + components)
+- **E004**: Build Phase - Enhancement - 0% complete (4 stories, quality system)
+- **E005**: Production & Validation - 0% complete (3 stories, deployment)
+
+### **🚨 Critical Gaps Identified**
+- **Use Cases**: 9 additional use cases found in know-docs (UC-16 through UC-21)
+- **Documentation**: 30 hours consolidation work required before requirements phase
+- **Component Specs**: 13 of 16 component specifications missing
+- **Quality Standards**: Complete 8+/10 criteria framework needs creation
+- **MCP Architecture**: Server specifications and integration design required
+
+### **🔍 Key Findings**
 - **14 actual components** found in Unity Landing (vs. 30 original specs)
-- **4 universal components** used in all 18 guides
-- **9 confirmed use cases** based on real patterns
-- **24 advanced use cases** from day-in-life need validation
-
-### **Cannabis Industry Validation**
-- 18 cannabis retail guides analyzed
-- Compliance patterns, POS integration, multi-device content confirmed
-- Industry-specific requirements identified
+- **21 total use cases** identified (vs. 12 originally documented)
+- **Repository overlap**: 5 critical document overlaps requiring consolidation
+- **Process failures**: 1 corrected (T010 orphaned), 1 prevention task created (T011)
 
 ## ⚡ **Next Phase: MCP Implementation**
 Once scope is approved, implement MCP server with:
