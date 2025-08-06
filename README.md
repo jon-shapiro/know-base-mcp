@@ -1,10 +1,21 @@
 # Know-Base-MCP
 
-**Status**: OPERATIONAL - PM system ready with organized file indexes  
-**Current Phase**: User Guide Development  
-**PM System**: Epic→Story→Task→Analysis/Plan linking system operational
-**File Organization**: Master index + category indexes prevent clutter
-**Last Updated**: August 05, 2025
+**Status**: PM SYSTEM OPERATIONAL - Repository separation planned  
+**Current Phase**: File Organization & PM System Validation  
+**Current Work**: T009 - File Inventory Review with Enhanced Context  
+**PM System**: Epic→Story→Task→Analysis/Plan linking operational with registries
+**File Organization**: Master index + category indexes implemented
+**Last Updated**: August 06, 2025
+
+## 🚨 **REPOSITORY SEPARATION PLANNED**
+
+### **Three System Architecture**
+- **know-docs**: Reusable PM system (replaces existing know-docs)
+- **know-base-mcp**: Cannabis guide generator for JMP  
+- **jmp-content**: Runtime content output with demo/production separation
+
+**Plan**: [docs/plans/P001-repository-separation-plan.md](docs/plans/P001-repository-separation-plan.md)  
+**Timeline**: Clean repositories after file review + design complete
 
 ## 🚀 **NEW: Strategic Session Management**
 

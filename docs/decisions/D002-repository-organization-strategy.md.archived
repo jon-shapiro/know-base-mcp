@@ -1,0 +1,83 @@
+# Decision: Repository Organization Strategy
+
+**Decision ID**: D002  
+**Date**: August 06, 2025  
+**Type**: Architecture Decision  
+**Impact**: High - Defines project structure  
+**Status**: Approved  
+
+## Decision Summary
+Implement structured separation (Option C) with three distinct systems organized into separate repositories with planned migration timeline.
+
+## Repository Structure Decision
+
+### **System 1: know-docs** (Replaces existing know-docs repo)
+- **Purpose**: Reusable project management system for any software project
+- **Content**: Epic/Story/Task templates, registries, processes, PM workflows
+- **Migration**: Extract from know-base-mcp, replace existing know-docs repository
+- **Reuse Value**: Generic PM system for future software projects
+
+### **System 2: know-base-mcp** (Current repo, cleaned)
+- **Purpose**: Cannabis user guide generator with multi-industry capability
+- **Content**: Component specs, conversion tools, MCP server, industry patterns
+- **Evolution**: Remove PM files after extraction, focus on guide generation
+- **Multi-Industry**: Support cannabis → stereo → other industry knowledge bases
+
+### **System 3: jmp-content** (New deployment repo)
+- **Purpose**: Runtime content output for consuming websites
+- **Content**: Generated liquid templates, compiled assets, deployment files
+- **Integration**: Output from know-base-mcp for website deployment
+- **Scalability**: Support multiple industry content outputs
+
+## Decisions File Management Decision
+
+### **Integration with File Cleanup Process**
+- **Approach**: Add decisions review to existing file cleanup process
+- **Lifecycle**: Active, Superseded, Archived status tracking
+- **Cleanup**: Periodic review during regular file cleanup cycles
+- **No Separate Process**: Leverage existing cleanup workflow
+
+### **Strategic Initiation Integration**
+- **Add Decisions Review**: Include active decisions review in strategic initiation
+- **Current Decisions**: Load active decisions affecting current work
+- **Decision Context**: Understand strategic decisions shaping current session
+- **Archive Awareness**: Know when decisions have been superseded
+
+## Implementation Approach: Plan C (Structured Separation)
+
+### **Phase 1: Immediate Planning** ✅ IN PROGRESS
+- Document separation plan with clear boundaries
+- Create migration strategy for each system
+- Establish file organization enabling clean separation
+- Continue current work with separation-aware organization
+
+### **Phase 2: PM System Extraction** (After T001/T009 complete)
+- Extract PM system to new know-docs repository
+- Replace existing know-docs with reusable PM system
+- Update know-base-mcp to reference external PM system
+- Test PM system independence and reusability
+
+### **Phase 3: Cannabis Project Focus** (After PM extraction)
+- Clean know-base-mcp of PM files (keeping reference links)
+- Focus on cannabis guide generator with multi-industry capability
+- Design jmp-content output strategy
+- Plan industry knowledge base architecture
+
+## Strategic Benefits
+- **Clean Separation**: Each system has clear purpose and boundaries
+- **Reusability**: PM system can be used for any future software project
+- **Scalability**: Guide generator supports multiple industries (cannabis → stereo → others)
+- **Deployment**: Clean runtime output separated from development tools
+- **Industry Knowledge**: Architecture supports company/industry specific knowledge bases
+
+## Next Actions
+1. Create detailed Repository Separation Plan
+2. Update file cleanup process to include decisions lifecycle
+3. Add decisions review to strategic initiation system
+4. Continue T009 with separation-aware file organization
+
+---
+
+**Strategic Value**: Clear separation enables reusable PM system while focusing cannabis project and supporting multi-industry expansion
+**Implementation**: Structured approach maintains momentum while planning clean separation
+**Multi-Industry Vision**: Architecture supports cannabis → stereo → other industry knowledge base development

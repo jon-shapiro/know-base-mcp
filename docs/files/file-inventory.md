@@ -9,6 +9,15 @@
 
 ## 📊 INVENTORY SUMMARY
 
+### **New Files Created (August 06, 2025)**
+- **docs/decisions/** - Decision files (archived - decisions now in task artifacts)
+- **docs/plans/P001-repository-separation-plan.md** - Three system architecture plan
+- **docs/processes/file-creation-process.md** - Systematic file creation with registry updates
+- **pm/registry/plans-registry.md** - Plans tracking with task/story/epic relationships
+- **pm/registry/analysis-registry.md** - Analysis tracking with task/story/epic relationships
+- **pm/tasks/T009-file-inventory-review/** - New high-priority task for file review
+- **docs/README.md** - Documentation navigation and organization
+
 ### **File Status Legend**
 - ✅ **VALIDATED**: File purpose confirmed and content validated
 - ⚠️ **ASSUMED**: File purpose understood but content needs validation  

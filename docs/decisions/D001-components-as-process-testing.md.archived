@@ -1,0 +1,65 @@
+# Decision: Components as Process Testing Tools
+
+**Decision ID**: D001  
+**Date**: August 06, 2025  
+**Type**: Strategic Clarification  
+**Impact**: High - Changes fundamental project understanding  
+**Status**: Documented  
+
+## Decision Context
+During strategic initiation, Claude misinterpreted component specifications as scope decisions rather than understanding their role in requirements building and process validation.
+
+## The Clarification
+**Previous Understanding**: Components were scope options to choose from (4-30 components)
+**Correct Understanding**: Components are part of requirements building process to test end-to-end workflow
+
+### Purpose of Components
+- **Requirements building process**: Test whether the end-to-end process works
+- **Process validation**: Create and tweak components to prove workflow
+- **Conversion testing**: Convert existing liquid to standardized modular component structure
+- **ASCII mockup conversion**: Transform mockups to liquid component format
+
+## Process Understanding
+1. **Create/tweak components** using specifications
+2. **Convert existing liquid** to standardized modular structure  
+3. **Convert ASCII mockups** (new/updated guides) to liquid components
+4. **Prove out the process** through actual conversion work
+5. **Refine requirements** based on process testing results
+6. **Design MCP construct** based on validated process
+
+## Project Status Impact
+- **Current State**: Have not yet proved out the process
+- **Still Need**: Requirements refinement through actual conversion testing
+- **Design Phase**: Need MCP construct design based on validated process
+- **Approach**: Testing-first rather than scope-selection-first
+
+## Documentation Strategy Decision
+**Question**: How to document decisions/clarifications for future context?
+**Options**: 
+- Session summary only
+- Dedicated decisions/clarifications file system
+- Hybrid approach
+
+**Recommendation**: Dedicated system because:
+- Strategic clarifications too important for session summaries only
+- Future sessions need this context to avoid repeated misunderstandings
+- Creates pattern for systematic decision documentation
+- Enables decision history tracking and reference
+
+## Implementation Impact
+- File inventory review with enhanced context annotations needed
+- Updated design process required using MCP construct
+- Context file extraction and cleanup based on correct understanding
+- Requirements refinement through actual process testing
+
+## Next Actions
+1. Check for existing file inventory task or create one
+2. Review file inventory with annotations for enhanced context
+3. Work on updated design based on MCP construct understanding
+4. Extract useful context files, create new ones, clean unnecessary ones
+
+---
+
+**Strategic Value**: Correct understanding enables proper requirements building through process testing rather than premature scope decisions
+**Documentation**: Filed under docs/decisions/ for future session reference
+**Integration**: Will be referenced in session handoffs and strategic context

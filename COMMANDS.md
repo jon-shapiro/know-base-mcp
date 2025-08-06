@@ -36,8 +36,10 @@ Update all README files and documentation to reflect current project state
 6. Highlight outstanding stakeholder review items
 7. Ensure all internal links work correctly
 8. Update file inventory if new files created
+9. **Validate registries**: Ensure all plans, analysis, and files are properly registered and linked
+10. **Check file creation process compliance**: Verify recent files follow systematic creation with registry updates
 
-**Output**: "Documentation updated. Outstanding items for stakeholder review: [LIST]"
+**Output**: "Documentation updated. Outstanding items for stakeholder review: [LIST]. Registry validation: [STATUS]"
 
 ### **--create-epic [EPIC_NAME]**
 Create new epic using standardized template
@@ -128,39 +130,43 @@ List all items requiring stakeholder (Jon) action
 ### **--end-session**
 Properly close current session and prepare for next session with strategic continuity
 
+**⚠️ CRITICAL: FOLLOW EVERY STEP - NO SHORTCUTS**
+
 **Process**:
-1. **Strategic Work Analysis**:
+1. **Strategic Work Analysis** ✅ REQUIRED:
    - Analyze work completed and its strategic impact on Epic/Story/Task
    - Identify strategic insights and learnings that change project understanding
    - Document strategic value created and evidence generated
    - Assess progress toward strategic decision points
 
-2. **Git Command Generation**:
+2. **Git Command Generation** ✅ REQUIRED:
    - Check current git status (uncommitted files, branch state, remote sync)
    - Generate commit message based on strategic work completed using `git add .`
    - Create `session/04-git-state.md` with exact git commands for human execution
    - Include commit message context and expected final state
    - **DO NOT EXECUTE**: Commands are for human execution only
+   - **⚠️ MUST OUTPUT GIT COMMANDS TO CONSOLE** for immediate execution
 
-3. **Strategic Context Generation**:
+3. **Strategic Context Generation** ✅ REQUIRED:
    - Update strategic understanding based on session learnings
    - Identify strategic decisions or pivots discovered during session
    - Document changes to project hypothesis or strategic approach
    - Generate strategic context for next session handoff
 
-4. **Session Handoff Creation**:
+4. **Session Handoff Creation** ✅ REQUIRED:
    - Create `session/00-session-handoff.md` with complete strategic context
    - Update `session/02-strategic-context.md` with current strategic position
    - Update `session/03-active-work-context.md` with current work status
+   - **Update END-SESSION-SUMMARY.md** with commit tracking and session accomplishments
    - Generate strategic initiation command for next session
 
-5. **Stakeholder Communication Preparation**:
+5. **Stakeholder Communication Preparation** ✅ REQUIRED:
    - Identify new items requiring stakeholder review and approval
    - Update stakeholder action items with strategic context
    - Prepare strategic progress updates for stakeholder communication
    - Document strategic decisions requiring stakeholder input
 
-6. **Strategic Continuity Validation**:
+6. **Strategic Continuity Validation** ✅ REQUIRED:
    - Ensure all strategic context captured for perfect session continuity
    - Validate that next session can resume with full strategic awareness
    - Confirm git state commands are accurate and complete
@@ -169,12 +175,21 @@ Properly close current session and prepare for next session with strategic conti
    - **ALWAYS write session files to disk** using filesystem tools
    - **ALWAYS output complete git commit commands** for manual execution
 
+**MANDATORY OUTPUT FORMAT**:
+```bash
+# EXECUTE THESE GIT COMMANDS:
+cd /Users/jon/git/know-base-mcp
+git add .
+git commit -m "[COMPLETE COMMIT MESSAGE]"
+git push origin main
+git status
+```
+
 **Output**: 
 - "Session ended with strategic continuity established. Next session priorities: [STRATEGIC FOCUS]"
-- **Full initiate path**: `/Users/jon/git/know-base-mcp/initiate.md`
-- Strategic initiation command: `INITIALIZE KNOW-BASE-MCP SESSION STRATEGIC-VALIDATION-MODE`
-- **Complete git commands** in session/04-git-state.md for repository synchronization
-- **All session files written to disk** in session/ directory
+- **CRITICAL INITIATE COMMAND**: `INITIALIZE KNOW-BASE-MCP SESSION STRATEGIC-VALIDATION-MODE Full initiate path: /Users/jon/git/know-base-mcp/initiate.md - RUN EVERY COMMAND!!!!!!`
+- **Complete git commands displayed above** for immediate execution
+- **All session files written to disk** in session/ directory including session summary with commit tracking
 
 ### **--session-handoff [NOTES]**
 Prepare handoff for different team member
