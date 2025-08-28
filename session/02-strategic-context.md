@@ -1,6 +1,6 @@
 # Strategic Context - Updated
-**Last Updated**: August 06, 2025
-**Phase**: VALIDATION
+**Last Updated**: August 27, 2025  
+**Phase**: STRATEGIC SUSTAINABILITY CRISIS
 
 ## Project Strategic Identity
 ### Core Mission
@@ -12,42 +12,43 @@ Transform Unity Landing's 18+ cannabis retail guides via MCP + conversational AI
 
 ### Strategic Hypothesis
 **Primary**: Component architecture + conversational AI = 10x faster content creation
-**Current Test**: Registry validation and gap analysis for comprehensive requirements preparation
-**Evidence**: Successfully identified 75% increase in use cases (21 vs 12) plus 30 hours consolidation work
+**Current Test**: System sustainability - can the development system scale?
+**Evidence**: System will fail from context overload within 20-30 sessions without intervention
 
 ## Current Phase Strategic Rationale
-### Why Comprehensive Registry Validation
-- **Requirements Risk**: Incomplete use case coverage could undermine MVP scope and effort estimation
-- **Process Risk**: Registry gaps and process failures could compromise systematic development approach
-- **Organizational Risk**: Document overlaps and missing consolidation could create confusion during requirements phase
-- **Evidence Needed**: Complete registry integrity with comprehensive gap analysis before requirements phase
-- **Decision Point**: Registry validation complete, ready for T009 file inventory and T011 process audit
+### Why System Sustainability Phase
+- **System Risk**: Context overload will make system unusable as it grows
+- **Process Risk**: Hidden failure modes will corrupt system state over time
+- **Stakeholder Value**: Sustainable system required to deliver on strategic vision
+- **Evidence Needed**: System sustainability framework operational
+- **Decision Point**: 5 critical decisions approved for immediate implementation
 
 ### Success Criteria for Phase
-- **Registry Integrity**: Complete cross-validation with 100% accuracy between registries and file system
-- **Gap Documentation**: All missing use cases, documents, and consolidation work identified with effort estimates
-- **Process Failure Prevention**: Systematic audit and strengthening measures implemented
-- **Requirements Preparation**: Foundation ready for E002 with comprehensive gap analysis
+- **Epic 19 Created**: System sustainability epic with 7 critical features
+- **T009 Executed**: Actual file inventory (corrected from false completion)
+- **Feature Grooming**: ~30 problematic features archived for cleaner backlog
+- **Registry Loading**: Smart context loading prevents overload
+- **Project Inception**: Clear criteria for new project repositories
 
 ## Strategic Decision Framework
 ### Current Decision Point
-**Decision**: Registry validation complete, execute T009 file inventory + T011 process audit
-**Options**: Proceed with file review vs. additional registry enhancement
-**Evidence Needed**: File inventory analysis with repository separation context + process failure audit
-**Timeline**: Next session for T009 + T011 execution with validated registry foundation
+**Decision**: System sustainability framework implementation
+**Options**: Implement all 5 recommendations or accept system failure risk
+**Evidence Needed**: Stakeholder approval of 5 critical decisions
+**Timeline**: Must begin Session 21 for system viability
 
 ### Strategic Risks & Mitigation
-**High Risk**: File inventory could reveal additional gaps or invalidate registry assumptions
-**Mitigation**: Enhanced context annotations with separation-aware analysis in T009
-**Early Warning**: If file review shows registry still incomplete or inaccurate
+**High Risk**: Context overload makes system unusable within 20-30 sessions
+**Mitigation**: Smart registry loading, aggressive context summarization
+**Early Warning**: Session initiation taking longer, context size warnings
 
 ## Stakeholder Value Proposition
 ### Value Created
-**For Jon**: Complete registry integrity with comprehensive gap analysis and process failure prevention
-**For Cannabis Industry**: Foundation for systematic development with accurate scope and effort estimation
-**For Requirements Phase**: Validated foundation with 30 hours consolidation work identified
+**For Jon**: Sustainable system that scales with project growth
+**For Cannabis Industry**: Reliable platform delivery without system collapse
+**For Strategic Vision**: Technical foundation that supports long-term success
 
 ### Approval Strategy
-**Evidence Needed**: T009 file inventory validation + T011 process audit completion
-**Communication Strategy**: Show comprehensive gap analysis with accurate effort estimates
-**Decision Timeline**: Registry validation complete, ready for file inventory execution
+**Evidence Needed**: System sustainability crisis documentation complete
+**Communication Strategy**: 5 clear YES/NO decisions for immediate action
+**Decision Timeline**: Assumed approved unless stakeholder objects
